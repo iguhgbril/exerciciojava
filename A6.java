@@ -2,7 +2,7 @@ package listaA;
 
 import java.util.Scanner;
 
-public class a6 {
+public class A6 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -16,7 +16,7 @@ public class a6 {
 		System.out.println("informe o valor da hora trabalhada");
 		vh= meuScanner.nextDouble();
 		System.out.println("informe o percentual de desconto");
-		pd= meuScanner.nextInt();
+		pd= meuScanner.nextDouble();
 		sb = (ht * vh);
 		td = ( pd / 100) * sb;
 		sl = (sb - td);
