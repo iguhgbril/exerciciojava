@@ -2,7 +2,7 @@ package listaA;
 
 import java.util.Scanner;
 
-public class a10 {
+public class A10 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -20,8 +20,8 @@ public class a10 {
 		A = (B);
 		B = (C);
 		
-		System.out.println("o valor de A é" +  A);
-		System.out.println("o valor de B é" +  C);
+		System.out.println("o valor de A Ã©" +  A);
+		System.out.println("o valor de B Ã©" +  C);
 	}
 
 }
