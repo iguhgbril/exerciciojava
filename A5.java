@@ -2,7 +2,7 @@ package listaA;
 
 import java.util.Scanner;
 
-public class a5 {
+public class A5 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -12,7 +12,7 @@ public class a5 {
 		
 		double preco, desconto, preco_vista;
 		
-		System.out.println("informe o preço bruto do produto");
+		System.out.println("informe o preÃ§o bruto do produto");
 		
 		preco= meuScanner.nextDouble();
 		
@@ -20,7 +20,7 @@ public class a5 {
 		
 		preco_vista = (preco - desconto);
 		
-		System.out.println("o preço bruto do seu produto é" + preco + "o preço a vista do seu produto é" + preco_vista + "o preço do seu produto com desconto é" + desconto );
+		System.out.println("o preÃ§o bruto do seu produto Ã©" + preco + "o preÃ§o a vista do seu produto Ã©" + preco_vista + "o preÃ§o do seu produto com desconto Ã©" + desconto );
 		
 		
 	}
