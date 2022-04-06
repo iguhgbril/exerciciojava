@@ -2,7 +2,7 @@ package listaA;
 
 import java.util.Scanner;
 
-public class a1 {
+public class A1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -22,7 +22,7 @@ public class a1 {
 		n4 = meuScanner.nextInt();
 		soma = (n1 + n2 + n3 + n4);
 			media = (soma / 4);
-			System.out.println("a media dos numeros é" + media);
+			System.out.println("a media dos numeros Ã©" + media);
 	}
 
 }
