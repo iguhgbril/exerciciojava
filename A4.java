@@ -2,7 +2,7 @@ package listaA;
 
 import java.util.Scanner;
 
-public class a4 {
+public class A4 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -17,7 +17,7 @@ public class a4 {
 		altura= meuScanner.nextInt();
 		volume = (314159 * raio * raio * altura);
 		
-		System.out.println("o volume de sua lata de oleo é:" + volume);
+		System.out.println("o volume de sua lata de oleo Ã©:" + volume);
 		
 	}
 
