@@ -2,7 +2,7 @@ package listaA;
 
 import java.util.Scanner;
 
-public class a7 {
+public class A7 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -15,7 +15,7 @@ public class a7 {
 		System.out.println("informe o tempo asto na viagem");
 		tempo= meuScanner.nextDouble();
 		System.out.println("informe a velocidade media durante a viagem");
-		velocidade = meuScanner.nextInt();
+		velocidade = meuScanner.nextDouble();
 		distancia = ( tempo * velocidade);
 		litros_usados (distancia / 12);
 		
